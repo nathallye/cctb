@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Class 2</title>
+    <style>
+      body {
+        /* color: lightgrey; */
+      }
+      li {
+        color: blueviolet;
+      }
+      h1 {
+        font-size: 20;
+      }
+      h2 {
+        font-size: 18;
+        background-color: Orange;
+        text-transform: capitalize;
+      }
+      p {
+        font-size: 14;
+      }
+      .imageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .image {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Welcome to CCTB</h1>
+      <ol>
+        <ul>
+          <a href="#section1">Go to section 1</a>
+        </ul>
+        <ul>
+          <a href="#section2">Go to section 2</a>
+        </ul>
+        <ul>
+          <a href="#section3">Go to section 3</a>
+        </ul>
+      </ol>
+      <section id="section1">
+        <h2>Section 1: Picture Gallery</h2>
+        <p>A: Main Campus: View 1</p>
+        <div class="imageContainer">
+          <img class="image" src="classroom1.jpeg" alt="" />
+        </div>
+        <p>B: Main Campus-View 2</p>
+        <div class="imageContainer">
+          <img class="image" src="classroom2.jpg" alt="" />
+        </div>
+      </section>
+      <section id="section2">
+        <h2>Section 2: About CCTB College</h2>
+        <p>
+          Canadian College of Technology and Business is an educational
+          institution that offers IT and business-focused programs
+        </p>
+      </section>
+      <section id="section3">
+        <h2>Section 3: Contacts and References</h2>
+        <p>
+          For more information:
+          <a href="mailto:nathallyet@gmail.com" style="font-weight: bold"
+            >email us</a
+          >
+        </p>
+        <p style="font-weight: bold; font-style: italic">
+          References: <br />
+          <a
+            href="https://www.canadianctb.ca"
+            style="font-weight: normal; font-style: normal"
+            >https://www.canadianctb.ca</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <footer style="text-align: center">
+      <hr />
+      <span>&copy; 2024 My site. All rights reserved.</span>
+      <hr />
+    </footer>
+  </body>
+</html>
