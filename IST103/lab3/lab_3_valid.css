@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+
+input:focus {
+   background-color: yellow;
+}
+
+input:invalid {
+   color: red;
+   border-color: red;
+   box-shadow: 0px 0px 5px red;
+}

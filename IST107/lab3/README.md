@@ -13,7 +13,6 @@
 ## Query to create database
 
 > CREATE DATABASE database_name;
-
 ```SQL
 CREATE DATABASE lab;
 ```
@@ -21,22 +20,22 @@ CREATE DATABASE lab;
 ## Query to switch to the created database
 
 > USE database_name;
-
 ```SQL
 USE lab;
 ```
 
 ## Query to create the student table:
 
-> CREATE TABEL table_name(attributes) in this case the attributes are sid, first_name, first_name, last_name, age, grade, major; so...
+> CREATE TABEL table_name(attributes) 
 
-> CREATE TABEL table_name(sid, first_name, first_name, last_name, age, grade, major);
+ - > in this case the table name is **student** and the attributes are **sid**, **first_name**, **last_name**, **age**, **grade**, **major**; so...
 
+> CREATE TABEL student(sid, first_name, last_name, age, grade, major);
 ```SQL
 CREATE TABLE student(
   sid INT PRIMARY KEY,
-  first_name VARCHAR(20) `NOT NULL`,
-  last_name VARCHAR(20) `NOT NULL`,
+  first_name VARCHAR(20) NOT NULL,
+  last_name VARCHAR(20) NOT NULL,
   age INT NOT NULL check(age > 18),
   grade VARCHAR(2) NOT NULL,
   major VARCHAR(20) NOT NULL
@@ -60,7 +59,6 @@ CREATE TABLE student(
 ## Query to insert data into the student table
 
 > INSERT INTO name_table (attribuites_names) VALUES (data for each field/attribuite)
-
 ```SQL
 INSERT INTO student (sid, first_name, last_name, age, grade, major) VALUES (1001, 'John', 'Doe', 20, 'B', 'Computer Sci'),
   -- for insert more then 1 row continue after the ','
