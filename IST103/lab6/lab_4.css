@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+
+/*
+   Author: Nathallye Bacelar
+   Date: Jun 25 2024
+*/
+
+header h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+nav h1 {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 2em;
+}
+
+article h1 {
+  font-size: 2em;
+}
+
+a {
+  color: ivory;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

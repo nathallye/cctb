@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+
+body {
+   width: 900px;
+}
+
+nav {
+   width: 250px;
+   float: left;
+   height: 400px;
+   background-color: rgb(94,39,48);
+   padding: 10px; 
+}
+
+article {
+   width: 500px;
+   float: left;
+}
+
+article {
+   margin-left: 40px;
+}

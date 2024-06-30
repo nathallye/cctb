@@ -24,6 +24,35 @@
       .your-text {
         color: blue;
       }
+
+      .container {
+        background-color: wheat;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item {
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        /* flex-basis keep the size according to the direction of the display */
+        flex-basis: 300px;
+      }
+
+      .one {
+        background-color: aquamarine;
+      }
+
+      .two {
+        background-color: aqua;
+      }
+
+      .three {
+        background-color: darksalmon;
+      }
     </style>
   </head>
   <body>
@@ -33,6 +62,12 @@
       <p class="my-text your-text">Some texts</p>
       <p id="second-text">Another texts</p>
       <p id="thrid-text">Latest texts</p>
+
+      <div class="container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item three">3</div>
+      </div>
     </main>
   </body>
 </html>
